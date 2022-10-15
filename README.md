@@ -2,6 +2,12 @@ Refer to the docs to know more 👇
 [GitHub Repo](https://github.com/snipsco/snips-nlu)
 [Docs](https://snips-nlu.readthedocs.io/en/latest)
 
+For the first time, download the language resource by running 👇
+
+```bash
+python -m snips_nlu download en
+```
+
 First you need to generate the dataset from all the YAML files in this directory. To do that run 👇
 
 ```bash

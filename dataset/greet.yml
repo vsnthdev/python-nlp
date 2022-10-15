@@ -18,3 +18,37 @@ utterances:
     - tata
     - talk to you later
     - ttyl
+
+---
+type: intent
+name: set_bio
+utterances:
+    - set my bio to [bio]
+    - update my bio [bio]
+    - fix my bio to [bio]
+    - my bio is [bio]
+    - bio should be [bio]
+
+---
+type: intent
+name: add_keyword
+utterances:
+    - I am looking for [token]
+    - Looking to meet [token]
+    - Show me [token]
+
+---
+type: entity
+name: bio
+values:
+    - i am
+    - my name is
+    - hello
+
+---
+type: entity
+name: token
+values:
+    - investor
+    - founder
+    - developer
