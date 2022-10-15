@@ -1,0 +1,20 @@
+---
+type: intent
+name: greeting
+utterances:
+    - hello
+
+---
+type: intent
+name: terminate
+utterances:
+    - exit
+    - bye
+    - cya
+    - stop
+    - close
+    - good bye
+    - good night
+    - tata
+    - talk to you later
+    - ttyl
