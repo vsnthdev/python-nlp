@@ -190,5 +190,8 @@ cython_debug/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python
 
+Include/
+Scripts/
 engine/
 dataset/dataset.json
+pyvenv.cfg
